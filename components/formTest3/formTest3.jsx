@@ -41,7 +41,7 @@ const FormTest3 = () => {
                   <TextField
                     {...formItem.field}
                     fullWidth
-                    label="Width <Controller /> component"
+                    label="With <Controller /> component"
                     error={Boolean(formItem.fieldState.error?.message)}
                     helperText={formItem.fieldState.error?.message}
                   />
